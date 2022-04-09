@@ -1,0 +1,10 @@
+.offers-text {
+    font-size: 0.8rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.offers-item {
+    height: 30vh;
+    width: auto;
+}

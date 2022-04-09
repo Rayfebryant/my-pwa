@@ -1,0 +1,14 @@
+.swiper-slide {
+    text-align: center;
+}
+
+.recent-avatar {
+    height: 4rem;
+    width:  auto;
+    text-align: end;
+}
+
+.send-money-text {
+    font-size: 0.8rem;
+    margin-left: 1.5rem;
+}

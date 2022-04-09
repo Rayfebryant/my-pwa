@@ -1,0 +1,27 @@
+.feature-container {
+    display: grid;
+    margin: 0 1rem;
+    grid-template-columns: repeat(3, 2fr) ;
+    grid-template-rows: repeat(2, 0.5fr);
+    grid-auto-flow: row;
+}
+
+.feature-container-wrapper > h4 {
+    font-size: 0.8rem;
+    margin-left: 1.5rem;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature-icon {
+    height:2rem;
+    width: auto;
+    margin-top: 0.5rem;
+}
+
+.feature-name {
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+}

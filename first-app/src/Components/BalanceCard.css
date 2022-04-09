@@ -1,0 +1,40 @@
+.bd-grid {
+    max-width: 1024px;
+    display: grid;
+    column-gap: 0.2rem;
+    width: calc(100% - 2rem);
+    margin: 0, 1rem;
+  }
+
+  .section {
+    padding: 5% 0 5%;
+  }
+
+  .balance_card_container {
+    row-gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .balance_card {
+    color:white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    background-image: linear-gradient(to right, #355c7d,#6c5b7b,#c06c84);
+  }
+
+  .greetings {
+      margin-bottom: 1rem;
+      font-size:1.2rem;
+  }
+  
+  .balance-info {
+    margin-top: 0;
+      margin-bottom: 1.5rem;
+      line-height: 1.5rem;
+      font-size: 1rem;
+  }
