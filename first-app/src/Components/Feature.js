@@ -20,30 +20,30 @@ class Feature extends React.Component {
                         <h6 className='feature-name'>{this.state.feature1}</h6>
                     </div>
                     <div className='feature'>
-                         <a href='/Pages/Feature/Transfer.js'><img className='feature-icon' src={require('../Assets/icons8-back-48.png')} alt=''></img></a>
+                         <Link to='/transfer'><img className='feature-icon' src={require('../Assets/icons8-back-48.png')} alt=''></img></Link>
                         <h6 className='feature-name'>{this.state.feature1}</h6>
                     </div>
                     <div className='feature'>
-                         <a href=''><img className='feature-icon' src={require('../Assets/icons8-back-48.png')} alt=''></img></a>
+                         <Link to='/transfer'><img className='feature-icon' src={require('../Assets/icons8-back-48.png')} alt=''></img></Link>
                         <h6 className='feature-name'>{this.state.feature1}</h6>
                     </div>
                     <div className='feature'>
-                         <a href=''><img className='feature-icon' src={require('../Assets/icons8-back-48.png')} alt=''></img></a>
+                         <Link to='/transfer'><img className='feature-icon' src={require('../Assets/icons8-back-48.png')} alt=''></img></Link>
                         <h6 className='feature-name'>{this.state.feature1}</h6>
                     </div>
                     <div className='feature'>
-                         <a href=''><img className='feature-icon' src={require('../Assets/icons8-back-48.png')} alt=''></img></a>
+                         <Link to='/transfer'><img className='feature-icon' src={require('../Assets/icons8-back-48.png')} alt=''></img></Link>
                         <h6 className='feature-name'>{this.state.feature1}</h6>
                     </div>
                     <div className='feature'>
-                         <a href=''><img className='feature-icon' src={require('../Assets/icons8-back-48.png')} alt=''></img></a>
+                         <Link to='/transfer'><img className='feature-icon' src={require('../Assets/icons8-back-48.png')} alt=''></img></Link>
                         <h6 className='feature-name'>{this.state.feature1}</h6>
                     </div>
                 </div>
             </div>
         );
-    }
-}
+    };
+};
 
 
 
